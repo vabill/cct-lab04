@@ -1,0 +1,25 @@
+# Environment configuration and secrets
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+credentials
+
+# Generated instance IDs and user-data
+uploader_instance_id.txt
+viewer_instance_id.txt
+user-data-*.sh
+launch-template-*.json
+uploader-policy.json
+viewer-policy.json
+
+# Dependencies and logs
+node_modules/
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
